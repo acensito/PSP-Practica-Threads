@@ -5,10 +5,10 @@ import java.util.Random;
 /**
  * @author FELIPON2T
  */
-public class Jugador extends Thread{
+public class Player extends Thread{
     private final Sala sala;
 
-    public Jugador(Sala sala, String name) {
+    public Player(Sala sala, String name) {
         super(name);
         this.sala = sala;
     }
